@@ -75,10 +75,6 @@ make integrationTest
 
 ### System Tests
 
-System tests run with Selenium using docker-compose to run a [Selenium standalone container][] with Chrome.
-
-[Selenium standalone container]: https://github.com/SeleniumHQ/docker-selenium
-
 Using Docker:
 
 * If you are running locally, make sure the `$APP_URL` is populated and points to a valid instance of your application. This variable is populated automatically in Jenkins.
